@@ -1,0 +1,24 @@
+QuestaSim-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 20:51:10 on Apr 28,2023
+vlog -L /package/eda/mg/questa10.6b/questasim/uvm-1.2 ahb_pkg.sv tb_ahb_manager.sv -logfile tb_compile.log -printinfilenames=file_search.log 
+-- Compiling package ahb_pkg
+** Note: (vlog-2286) ahb_manager_test.svh(2): Using implicit +incdir+/package/eda/mg/questa10.6b/questasim/uvm-1.2/../verilog_src/uvm-1.2/src from import uvm_pkg
+-- Compiling package tb_ahb_manager_sv_unit
+-- Importing package /package/eda/mg/questa10.6b/questasim/uvm-1.2.uvm_pkg (uvm-1.2 Built-in)
+-- Importing package ahb_pkg
+-- Compiling interface ahb_manager_if
+-- Compiling interface ahb_if
+-- Compiling interface bus_protocol_if
+-- Compiling interface bus_if
+-- Compiling interface ahb_if
+-- Compiling interface ahb_if
+-- Compiling interface ahb_if
+-- Compiling package ahb_pkg
+-- Compiling module ahb_manager
+-- Compiling module tb_ahb_manager
+
+Top level modules:
+	ahb_manager
+	tb_ahb_manager
+End time: 20:51:10 on Apr 28,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
